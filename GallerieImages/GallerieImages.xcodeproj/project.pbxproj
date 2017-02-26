@@ -12,6 +12,7 @@
 		A5AEBB711E63435A00FFAC3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB6F1E63435A00FFAC3A /* Main.storyboard */; };
 		A5AEBB731E63435A00FFAC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB721E63435A00FFAC3A /* Assets.xcassets */; };
 		A5AEBB761E63435A00FFAC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB741E63435A00FFAC3A /* LaunchScreen.storyboard */; };
+		A5AEBB7E1E63494400FFAC3A /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB7D1E63494400FFAC3A /* lion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A5AEBB721E63435A00FFAC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5AEBB751E63435A00FFAC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5AEBB771E63435A00FFAC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AEBB7D1E63494400FFAC3A /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A5AEBB6B1E63435A00FFAC3A /* AppDelegate.swift */,
 				A5AEBB6D1E63435A00FFAC3A /* ViewController.swift */,
 				A5AEBB6F1E63435A00FFAC3A /* Main.storyboard */,
+				A5AEBB7D1E63494400FFAC3A /* lion.png */,
 				A5AEBB721E63435A00FFAC3A /* Assets.xcassets */,
 				A5AEBB741E63435A00FFAC3A /* LaunchScreen.storyboard */,
 				A5AEBB771E63435A00FFAC3A /* Info.plist */,
@@ -96,8 +99,7 @@
 				TargetAttributes = {
 					A5AEBB671E63435A00FFAC3A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 7Z7PEWCK74;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -125,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5AEBB761E63435A00FFAC3A /* LaunchScreen.storyboard in Resources */,
+				A5AEBB7E1E63494400FFAC3A /* lion.png in Resources */,
 				A5AEBB731E63435A00FFAC3A /* Assets.xcassets in Resources */,
 				A5AEBB711E63435A00FFAC3A /* Main.storyboard in Resources */,
 			);
@@ -261,7 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7Z7PEWCK74;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GallerieImages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.GallerieImages;
@@ -274,7 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7Z7PEWCK74;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GallerieImages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.GallerieImages;
