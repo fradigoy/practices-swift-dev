@@ -13,6 +13,10 @@
 		A5AEBB731E63435A00FFAC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB721E63435A00FFAC3A /* Assets.xcassets */; };
 		A5AEBB761E63435A00FFAC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB741E63435A00FFAC3A /* LaunchScreen.storyboard */; };
 		A5AEBB7E1E63494400FFAC3A /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB7D1E63494400FFAC3A /* lion.png */; };
+		A5AEBB801E634BEC00FFAC3A /* canyon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB7F1E634BEC00FFAC3A /* canyon.png */; };
+		A5AEBB841E634DE400FFAC3A /* sommet.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB821E634DE400FFAC3A /* sommet.png */; };
+		A5AEBB851E634DE400FFAC3A /* voiture.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB831E634DE400FFAC3A /* voiture.png */; };
+		A5AEBB871E634DEF00FFAC3A /* concert.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AEBB861E634DEF00FFAC3A /* concert.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A5AEBB751E63435A00FFAC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5AEBB771E63435A00FFAC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5AEBB7D1E63494400FFAC3A /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
+		A5AEBB7F1E634BEC00FFAC3A /* canyon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canyon.png; sourceTree = "<group>"; };
+		A5AEBB821E634DE400FFAC3A /* sommet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sommet.png; sourceTree = "<group>"; };
+		A5AEBB831E634DE400FFAC3A /* voiture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiture.png; sourceTree = "<group>"; };
+		A5AEBB861E634DEF00FFAC3A /* concert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concert.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		A5AEBB6A1E63435A00FFAC3A /* GallerieImages */ = {
 			isa = PBXGroup;
 			children = (
+				A5AEBB811E634DAF00FFAC3A /* Images */,
 				A5AEBB6B1E63435A00FFAC3A /* AppDelegate.swift */,
 				A5AEBB6D1E63435A00FFAC3A /* ViewController.swift */,
 				A5AEBB6F1E63435A00FFAC3A /* Main.storyboard */,
-				A5AEBB7D1E63494400FFAC3A /* lion.png */,
 				A5AEBB721E63435A00FFAC3A /* Assets.xcassets */,
 				A5AEBB741E63435A00FFAC3A /* LaunchScreen.storyboard */,
 				A5AEBB771E63435A00FFAC3A /* Info.plist */,
 			);
 			path = GallerieImages;
+			sourceTree = "<group>";
+		};
+		A5AEBB811E634DAF00FFAC3A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A5AEBB821E634DE400FFAC3A /* sommet.png */,
+				A5AEBB831E634DE400FFAC3A /* voiture.png */,
+				A5AEBB7D1E63494400FFAC3A /* lion.png */,
+				A5AEBB861E634DEF00FFAC3A /* concert.png */,
+				A5AEBB7F1E634BEC00FFAC3A /* canyon.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +146,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AEBB841E634DE400FFAC3A /* sommet.png in Resources */,
 				A5AEBB761E63435A00FFAC3A /* LaunchScreen.storyboard in Resources */,
 				A5AEBB7E1E63494400FFAC3A /* lion.png in Resources */,
 				A5AEBB731E63435A00FFAC3A /* Assets.xcassets in Resources */,
+				A5AEBB871E634DEF00FFAC3A /* concert.png in Resources */,
+				A5AEBB801E634BEC00FFAC3A /* canyon.png in Resources */,
+				A5AEBB851E634DE400FFAC3A /* voiture.png in Resources */,
 				A5AEBB711E63435A00FFAC3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
