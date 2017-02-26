@@ -96,8 +96,7 @@
 				TargetAttributes = {
 					A5AEBB471E63402100FFAC3A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 7Z7PEWCK74;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -261,7 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7Z7PEWCK74;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GallerieImages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.GallerieImages;
@@ -274,7 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7Z7PEWCK74;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GallerieImages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.GallerieImages;
