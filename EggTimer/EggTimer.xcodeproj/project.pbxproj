@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A504CEF31E63535F00E3F602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A504CEF21E63535F00E3F602 /* AppDelegate.swift */; };
-		A504CEF51E63535F00E3F602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A504CEF41E63535F00E3F602 /* ViewController.swift */; };
-		A504CEF81E63535F00E3F602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A504CEF61E63535F00E3F602 /* Main.storyboard */; };
-		A504CEFA1E63535F00E3F602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A504CEF91E63535F00E3F602 /* Assets.xcassets */; };
-		A504CEFD1E63535F00E3F602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A504CEFB1E63535F00E3F602 /* LaunchScreen.storyboard */; };
+		A5CAC3D21E8558D8000EDBFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CAC3D11E8558D8000EDBFC /* AppDelegate.swift */; };
+		A5CAC3D41E8558D8000EDBFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CAC3D31E8558D8000EDBFC /* ViewController.swift */; };
+		A5CAC3D71E8558D8000EDBFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CAC3D51E8558D8000EDBFC /* Main.storyboard */; };
+		A5CAC3D91E8558D8000EDBFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CAC3D81E8558D8000EDBFC /* Assets.xcassets */; };
+		A5CAC3DC1E8558D8000EDBFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CAC3DA1E8558D8000EDBFC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A504CEEF1E63535F00E3F602 /* NavToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavToolBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A504CEF21E63535F00E3F602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A504CEF41E63535F00E3F602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A504CEF71E63535F00E3F602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A504CEF91E63535F00E3F602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A504CEFC1E63535F00E3F602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A504CEFE1E63535F00E3F602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CAC3CE1E8558D8000EDBFC /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CAC3D11E8558D8000EDBFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5CAC3D31E8558D8000EDBFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5CAC3D61E8558D8000EDBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5CAC3D81E8558D8000EDBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5CAC3DB1E8558D8000EDBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5CAC3DD1E8558D8000EDBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A504CEEC1E63535E00E3F602 /* Frameworks */ = {
+		A5CAC3CB1E8558D8000EDBFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A504CEE61E63535E00E3F602 = {
+		A5CAC3C51E8558D8000EDBFC = {
 			isa = PBXGroup;
 			children = (
-				A504CEF11E63535F00E3F602 /* NavToolBar */,
-				A504CEF01E63535F00E3F602 /* Products */,
+				A5CAC3D01E8558D8000EDBFC /* EggTimer */,
+				A5CAC3CF1E8558D8000EDBFC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A504CEF01E63535F00E3F602 /* Products */ = {
+		A5CAC3CF1E8558D8000EDBFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A504CEEF1E63535F00E3F602 /* NavToolBar.app */,
+				A5CAC3CE1E8558D8000EDBFC /* EggTimer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A504CEF11E63535F00E3F602 /* NavToolBar */ = {
+		A5CAC3D01E8558D8000EDBFC /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
-				A504CEF21E63535F00E3F602 /* AppDelegate.swift */,
-				A504CEF41E63535F00E3F602 /* ViewController.swift */,
-				A504CEF61E63535F00E3F602 /* Main.storyboard */,
-				A504CEF91E63535F00E3F602 /* Assets.xcassets */,
-				A504CEFB1E63535F00E3F602 /* LaunchScreen.storyboard */,
-				A504CEFE1E63535F00E3F602 /* Info.plist */,
+				A5CAC3D11E8558D8000EDBFC /* AppDelegate.swift */,
+				A5CAC3D31E8558D8000EDBFC /* ViewController.swift */,
+				A5CAC3D51E8558D8000EDBFC /* Main.storyboard */,
+				A5CAC3D81E8558D8000EDBFC /* Assets.xcassets */,
+				A5CAC3DA1E8558D8000EDBFC /* LaunchScreen.storyboard */,
+				A5CAC3DD1E8558D8000EDBFC /* Info.plist */,
 			);
-			path = NavToolBar;
+			path = EggTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A504CEEE1E63535E00E3F602 /* NavToolBar */ = {
+		A5CAC3CD1E8558D8000EDBFC /* EggTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A504CF011E63535F00E3F602 /* Build configuration list for PBXNativeTarget "NavToolBar" */;
+			buildConfigurationList = A5CAC3E01E8558D8000EDBFC /* Build configuration list for PBXNativeTarget "EggTimer" */;
 			buildPhases = (
-				A504CEEB1E63535E00E3F602 /* Sources */,
-				A504CEEC1E63535E00E3F602 /* Frameworks */,
-				A504CEED1E63535E00E3F602 /* Resources */,
+				A5CAC3CA1E8558D8000EDBFC /* Sources */,
+				A5CAC3CB1E8558D8000EDBFC /* Frameworks */,
+				A5CAC3CC1E8558D8000EDBFC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NavToolBar;
-			productName = NavToolBar;
-			productReference = A504CEEF1E63535F00E3F602 /* NavToolBar.app */;
+			name = EggTimer;
+			productName = EggTimer;
+			productReference = A5CAC3CE1E8558D8000EDBFC /* EggTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A504CEE71E63535E00E3F602 /* Project object */ = {
+		A5CAC3C61E8558D8000EDBFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "frederic radigoy";
 				TargetAttributes = {
-					A504CEEE1E63535E00E3F602 = {
+					A5CAC3CD1E8558D8000EDBFC = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 7Z7PEWCK74;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A504CEEA1E63535E00E3F602 /* Build configuration list for PBXProject "NavToolBar" */;
+			buildConfigurationList = A5CAC3C91E8558D8000EDBFC /* Build configuration list for PBXProject "EggTimer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = A504CEE61E63535E00E3F602;
-			productRefGroup = A504CEF01E63535F00E3F602 /* Products */;
+			mainGroup = A5CAC3C51E8558D8000EDBFC;
+			productRefGroup = A5CAC3CF1E8558D8000EDBFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A504CEEE1E63535E00E3F602 /* NavToolBar */,
+				A5CAC3CD1E8558D8000EDBFC /* EggTimer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A504CEED1E63535E00E3F602 /* Resources */ = {
+		A5CAC3CC1E8558D8000EDBFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A504CEFD1E63535F00E3F602 /* LaunchScreen.storyboard in Resources */,
-				A504CEFA1E63535F00E3F602 /* Assets.xcassets in Resources */,
-				A504CEF81E63535F00E3F602 /* Main.storyboard in Resources */,
+				A5CAC3DC1E8558D8000EDBFC /* LaunchScreen.storyboard in Resources */,
+				A5CAC3D91E8558D8000EDBFC /* Assets.xcassets in Resources */,
+				A5CAC3D71E8558D8000EDBFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A504CEEB1E63535E00E3F602 /* Sources */ = {
+		A5CAC3CA1E8558D8000EDBFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A504CEF51E63535F00E3F602 /* ViewController.swift in Sources */,
-				A504CEF31E63535F00E3F602 /* AppDelegate.swift in Sources */,
+				A5CAC3D41E8558D8000EDBFC /* ViewController.swift in Sources */,
+				A5CAC3D21E8558D8000EDBFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A504CEF61E63535F00E3F602 /* Main.storyboard */ = {
+		A5CAC3D51E8558D8000EDBFC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A504CEF71E63535F00E3F602 /* Base */,
+				A5CAC3D61E8558D8000EDBFC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A504CEFB1E63535F00E3F602 /* LaunchScreen.storyboard */ = {
+		A5CAC3DA1E8558D8000EDBFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A504CEFC1E63535F00E3F602 /* Base */,
+				A5CAC3DB1E8558D8000EDBFC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A504CEFF1E63535F00E3F602 /* Debug */ = {
+		A5CAC3DE1E8558D8000EDBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		A504CF001E63535F00E3F602 /* Release */ = {
+		A5CAC3DF1E8558D8000EDBFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,27 +257,27 @@
 			};
 			name = Release;
 		};
-		A504CF021E63535F00E3F602 /* Debug */ = {
+		A5CAC3E11E8558D8000EDBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = NavToolBar/Info.plist;
+				DEVELOPMENT_TEAM = 7Z7PEWCK74;
+				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.NavToolBar;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		A504CF031E63535F00E3F602 /* Release */ = {
+		A5CAC3E21E8558D8000EDBFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = NavToolBar/Info.plist;
+				DEVELOPMENT_TEAM = 7Z7PEWCK74;
+				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.NavToolBar;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,24 +286,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A504CEEA1E63535E00E3F602 /* Build configuration list for PBXProject "NavToolBar" */ = {
+		A5CAC3C91E8558D8000EDBFC /* Build configuration list for PBXProject "EggTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A504CEFF1E63535F00E3F602 /* Debug */,
-				A504CF001E63535F00E3F602 /* Release */,
+				A5CAC3DE1E8558D8000EDBFC /* Debug */,
+				A5CAC3DF1E8558D8000EDBFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A504CF011E63535F00E3F602 /* Build configuration list for PBXNativeTarget "NavToolBar" */ = {
+		A5CAC3E01E8558D8000EDBFC /* Build configuration list for PBXNativeTarget "EggTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A504CF021E63535F00E3F602 /* Debug */,
-				A504CF031E63535F00E3F602 /* Release */,
+				A5CAC3E11E8558D8000EDBFC /* Debug */,
+				A5CAC3E21E8558D8000EDBFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A504CEE71E63535E00E3F602 /* Project object */;
+	rootObject = A5CAC3C61E8558D8000EDBFC /* Project object */;
 }

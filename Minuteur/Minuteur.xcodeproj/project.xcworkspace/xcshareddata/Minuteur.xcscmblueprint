@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "91D530AC6070935E9AFA91ADA8188055EAB4504D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "91D530AC6070935E9AFA91ADA8188055EAB4504D" : 9223372036854775807,
+    "601744435F825CC7E4FC8DA10976A839068572F8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FDC30C9B-B977-416B-B135-34F8AACB0DB3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "91D530AC6070935E9AFA91ADA8188055EAB4504D" : "iOS-DevSwift-Practice\/",
+    "601744435F825CC7E4FC8DA10976A839068572F8" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Minuteur",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Minuteur\/Minuteur.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blacksmash\/nodejs-test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "601744435F825CC7E4FC8DA10976A839068572F8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blacksmash\/iOS-DevSwift-Practice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "91D530AC6070935E9AFA91ADA8188055EAB4504D"
+    }
+  ]
+}

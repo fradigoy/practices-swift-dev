@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A504CEF31E63535F00E3F602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A504CEF21E63535F00E3F602 /* AppDelegate.swift */; };
-		A504CEF51E63535F00E3F602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A504CEF41E63535F00E3F602 /* ViewController.swift */; };
-		A504CEF81E63535F00E3F602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A504CEF61E63535F00E3F602 /* Main.storyboard */; };
-		A504CEFA1E63535F00E3F602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A504CEF91E63535F00E3F602 /* Assets.xcassets */; };
-		A504CEFD1E63535F00E3F602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A504CEFB1E63535F00E3F602 /* LaunchScreen.storyboard */; };
+		A569F8541E841E9A00D266A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569F8531E841E9A00D266A2 /* AppDelegate.swift */; };
+		A569F8561E841E9A00D266A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569F8551E841E9A00D266A2 /* ViewController.swift */; };
+		A569F8591E841E9A00D266A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A569F8571E841E9A00D266A2 /* Main.storyboard */; };
+		A569F85B1E841E9A00D266A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A569F85A1E841E9A00D266A2 /* Assets.xcassets */; };
+		A569F85E1E841E9A00D266A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A569F85C1E841E9A00D266A2 /* LaunchScreen.storyboard */; };
+		A5BF3EC01E854BB300A9C9FF /* bip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5BF3EBF1E854BB300A9C9FF /* bip.mp3 */; };
+		A5CAC3C41E855036000EDBFC /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5CAC3C31E855036000EDBFC /* alarm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A504CEEF1E63535F00E3F602 /* NavToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavToolBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A504CEF21E63535F00E3F602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A504CEF41E63535F00E3F602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A504CEF71E63535F00E3F602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A504CEF91E63535F00E3F602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A504CEFC1E63535F00E3F602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A504CEFE1E63535F00E3F602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A569F8501E841E9A00D266A2 /* Minuteur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minuteur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A569F8531E841E9A00D266A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A569F8551E841E9A00D266A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A569F8581E841E9A00D266A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A569F85A1E841E9A00D266A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A569F85D1E841E9A00D266A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A569F85F1E841E9A00D266A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BF3EBF1E854BB300A9C9FF /* bip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bip.mp3; sourceTree = "<group>"; };
+		A5CAC3C31E855036000EDBFC /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A504CEEC1E63535E00E3F602 /* Frameworks */ = {
+		A569F84D1E841E9A00D266A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +39,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A504CEE61E63535E00E3F602 = {
+		A569F8471E841E9A00D266A2 = {
 			isa = PBXGroup;
 			children = (
-				A504CEF11E63535F00E3F602 /* NavToolBar */,
-				A504CEF01E63535F00E3F602 /* Products */,
+				A569F8521E841E9A00D266A2 /* Minuteur */,
+				A569F8511E841E9A00D266A2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A504CEF01E63535F00E3F602 /* Products */ = {
+		A569F8511E841E9A00D266A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A504CEEF1E63535F00E3F602 /* NavToolBar.app */,
+				A569F8501E841E9A00D266A2 /* Minuteur.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A504CEF11E63535F00E3F602 /* NavToolBar */ = {
+		A569F8521E841E9A00D266A2 /* Minuteur */ = {
 			isa = PBXGroup;
 			children = (
-				A504CEF21E63535F00E3F602 /* AppDelegate.swift */,
-				A504CEF41E63535F00E3F602 /* ViewController.swift */,
-				A504CEF61E63535F00E3F602 /* Main.storyboard */,
-				A504CEF91E63535F00E3F602 /* Assets.xcassets */,
-				A504CEFB1E63535F00E3F602 /* LaunchScreen.storyboard */,
-				A504CEFE1E63535F00E3F602 /* Info.plist */,
+				A569F8531E841E9A00D266A2 /* AppDelegate.swift */,
+				A569F8551E841E9A00D266A2 /* ViewController.swift */,
+				A569F8571E841E9A00D266A2 /* Main.storyboard */,
+				A5CAC3C31E855036000EDBFC /* alarm.mp3 */,
+				A5BF3EBF1E854BB300A9C9FF /* bip.mp3 */,
+				A569F85A1E841E9A00D266A2 /* Assets.xcassets */,
+				A569F85C1E841E9A00D266A2 /* LaunchScreen.storyboard */,
+				A569F85F1E841E9A00D266A2 /* Info.plist */,
 			);
-			path = NavToolBar;
+			path = Minuteur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A504CEEE1E63535E00E3F602 /* NavToolBar */ = {
+		A569F84F1E841E9A00D266A2 /* Minuteur */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A504CF011E63535F00E3F602 /* Build configuration list for PBXNativeTarget "NavToolBar" */;
+			buildConfigurationList = A569F8621E841E9A00D266A2 /* Build configuration list for PBXNativeTarget "Minuteur" */;
 			buildPhases = (
-				A504CEEB1E63535E00E3F602 /* Sources */,
-				A504CEEC1E63535E00E3F602 /* Frameworks */,
-				A504CEED1E63535E00E3F602 /* Resources */,
+				A569F84C1E841E9A00D266A2 /* Sources */,
+				A569F84D1E841E9A00D266A2 /* Frameworks */,
+				A569F84E1E841E9A00D266A2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NavToolBar;
-			productName = NavToolBar;
-			productReference = A504CEEF1E63535F00E3F602 /* NavToolBar.app */;
+			name = Minuteur;
+			productName = Minuteur;
+			productReference = A569F8501E841E9A00D266A2 /* Minuteur.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A504CEE71E63535E00E3F602 /* Project object */ = {
+		A569F8481E841E9A00D266A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "frederic radigoy";
 				TargetAttributes = {
-					A504CEEE1E63535E00E3F602 = {
+					A569F84F1E841E9A00D266A2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = A504CEEA1E63535E00E3F602 /* Build configuration list for PBXProject "NavToolBar" */;
+			buildConfigurationList = A569F84B1E841E9A00D266A2 /* Build configuration list for PBXProject "Minuteur" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +114,56 @@
 				en,
 				Base,
 			);
-			mainGroup = A504CEE61E63535E00E3F602;
-			productRefGroup = A504CEF01E63535F00E3F602 /* Products */;
+			mainGroup = A569F8471E841E9A00D266A2;
+			productRefGroup = A569F8511E841E9A00D266A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A504CEEE1E63535E00E3F602 /* NavToolBar */,
+				A569F84F1E841E9A00D266A2 /* Minuteur */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A504CEED1E63535E00E3F602 /* Resources */ = {
+		A569F84E1E841E9A00D266A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A504CEFD1E63535F00E3F602 /* LaunchScreen.storyboard in Resources */,
-				A504CEFA1E63535F00E3F602 /* Assets.xcassets in Resources */,
-				A504CEF81E63535F00E3F602 /* Main.storyboard in Resources */,
+				A5BF3EC01E854BB300A9C9FF /* bip.mp3 in Resources */,
+				A569F85E1E841E9A00D266A2 /* LaunchScreen.storyboard in Resources */,
+				A569F85B1E841E9A00D266A2 /* Assets.xcassets in Resources */,
+				A569F8591E841E9A00D266A2 /* Main.storyboard in Resources */,
+				A5CAC3C41E855036000EDBFC /* alarm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A504CEEB1E63535E00E3F602 /* Sources */ = {
+		A569F84C1E841E9A00D266A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A504CEF51E63535F00E3F602 /* ViewController.swift in Sources */,
-				A504CEF31E63535F00E3F602 /* AppDelegate.swift in Sources */,
+				A569F8561E841E9A00D266A2 /* ViewController.swift in Sources */,
+				A569F8541E841E9A00D266A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A504CEF61E63535F00E3F602 /* Main.storyboard */ = {
+		A569F8571E841E9A00D266A2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A504CEF71E63535F00E3F602 /* Base */,
+				A569F8581E841E9A00D266A2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A504CEFB1E63535F00E3F602 /* LaunchScreen.storyboard */ = {
+		A569F85C1E841E9A00D266A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A504CEFC1E63535F00E3F602 /* Base */,
+				A569F85D1E841E9A00D266A2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A504CEFF1E63535F00E3F602 /* Debug */ = {
+		A569F8601E841E9A00D266A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		A504CF001E63535F00E3F602 /* Release */ = {
+		A569F8611E841E9A00D266A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,27 +264,27 @@
 			};
 			name = Release;
 		};
-		A504CF021E63535F00E3F602 /* Debug */ = {
+		A569F8631E841E9A00D266A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = NavToolBar/Info.plist;
+				INFOPLIST_FILE = Minuteur/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.NavToolBar;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.Minuteur;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		A504CF031E63535F00E3F602 /* Release */ = {
+		A569F8641E841E9A00D266A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = NavToolBar/Info.plist;
+				INFOPLIST_FILE = Minuteur/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.NavToolBar;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.blacksmash.Minuteur;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,24 +293,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A504CEEA1E63535E00E3F602 /* Build configuration list for PBXProject "NavToolBar" */ = {
+		A569F84B1E841E9A00D266A2 /* Build configuration list for PBXProject "Minuteur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A504CEFF1E63535F00E3F602 /* Debug */,
-				A504CF001E63535F00E3F602 /* Release */,
+				A569F8601E841E9A00D266A2 /* Debug */,
+				A569F8611E841E9A00D266A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A504CF011E63535F00E3F602 /* Build configuration list for PBXNativeTarget "NavToolBar" */ = {
+		A569F8621E841E9A00D266A2 /* Build configuration list for PBXNativeTarget "Minuteur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A504CF021E63535F00E3F602 /* Debug */,
-				A504CF031E63535F00E3F602 /* Release */,
+				A569F8631E841E9A00D266A2 /* Debug */,
+				A569F8641E841E9A00D266A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A504CEE71E63535E00E3F602 /* Project object */;
+	rootObject = A569F8481E841E9A00D266A2 /* Project object */;
 }
