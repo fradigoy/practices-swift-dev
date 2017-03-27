@@ -1,26 +1,108 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tipCalculor" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HdD-ov-FZE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="H5L-gi-87V"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.14864161173771362" green="0.53121875005688213" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Tip Calulator" id="DcX-ba-NpL"/>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="€ 00.00" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mPu-JI-kfI">
+                                <rect key="frame" x="29" y="70" width="260" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="4Wc-AS-tSA"/>
+                                    <constraint firstAttribute="width" constant="260" id="d9f-qn-81T"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="9sP-IY-dXP">
+                                <rect key="frame" x="29" y="156" width="260" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="eh7-n1-rda"/>
+                                    <constraint firstAttribute="width" constant="260" id="lDI-Uo-D7b"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="15%"/>
+                                    <segment title="20%"/>
+                                    <segment title="25%"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€ " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAe-AO-znF">
+                                <rect key="frame" x="48.5" y="229" width="200" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Zzy-3j-8Yh"/>
+                                    <constraint firstAttribute="height" constant="43" id="lSW-UG-Lur"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€ " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0Q-NB-qdD">
+                                <rect key="frame" x="48.5" y="307" width="200" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="JkE-AP-ir3"/>
+                                    <constraint firstAttribute="width" constant="200" id="QTl-A1-VyM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HdD-ov-FZE" secondAttribute="trailing" id="1vZ-4F-ATN"/>
+                            <constraint firstItem="a0Q-NB-qdD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-11.5" id="31e-si-dKA"/>
+                            <constraint firstItem="9sP-IY-dXP" firstAttribute="top" secondItem="mPu-JI-kfI" secondAttribute="bottom" constant="41" id="6lz-kA-BMh"/>
+                            <constraint firstItem="gAe-AO-znF" firstAttribute="top" secondItem="9sP-IY-dXP" secondAttribute="bottom" constant="45" id="8HS-7p-imx"/>
+                            <constraint firstItem="mPu-JI-kfI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-1" id="Ibo-y0-q4P"/>
+                            <constraint firstItem="mPu-JI-kfI" firstAttribute="top" secondItem="HdD-ov-FZE" secondAttribute="bottom" constant="26" id="Rir-hi-e6F"/>
+                            <constraint firstItem="HdD-ov-FZE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="er0-gb-sxQ"/>
+                            <constraint firstItem="a0Q-NB-qdD" firstAttribute="top" secondItem="gAe-AO-znF" secondAttribute="bottom" constant="35" id="ezh-Ob-dIt"/>
+                            <constraint firstItem="gAe-AO-znF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-11.5" id="i3G-Ag-QKG"/>
+                            <constraint firstItem="mPu-JI-kfI" firstAttribute="top" secondItem="HdD-ov-FZE" secondAttribute="bottom" constant="26" id="mlU-Ah-jH0"/>
+                            <constraint firstItem="9sP-IY-dXP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-1" id="nJz-H0-GCY"/>
+                            <constraint firstItem="HdD-ov-FZE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zX9-Ix-L53"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="montantFactureTextField" destination="mPu-JI-kfI" id="iJo-eR-tvn"/>
+                        <outlet property="montantTotalLabel" destination="a0Q-NB-qdD" id="8tD-7r-3HW"/>
+                        <outlet property="pourBoireLabel" destination="gAe-AO-znF" id="NuK-1Z-4A1"/>
+                        <outlet property="pourBoireSegmentControl" destination="9sP-IY-dXP" id="7Nc-rg-TqX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.875" y="138.38028169014083"/>
         </scene>
     </scenes>
 </document>
