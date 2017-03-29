@@ -10,10 +10,14 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var etiquette: UILabel!
+    var text:String?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        etiquette.text = text
     }
 
     override func didReceiveMemoryWarning() {
