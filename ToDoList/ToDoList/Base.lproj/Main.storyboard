@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xfF-xZ-3jS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,108 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ToDo ..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TQI-li-BoM">
+                                <rect key="frame" x="32" y="142" width="310" height="30"/>
+                                <color key="backgroundColor" red="0.66611081360000002" green="0.79355025290000003" blue="0.9474793077" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="Ae5-q3-su2"/>
+                                    <constraint firstAttribute="height" constant="30" id="EVS-rO-qdJ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rEJ-Sy-iMF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Xtx-ZR-8s5"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Ajouter TODO" id="3ql-B6-T1Q">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="S6k-A9-Ag0">
+                                            <connections>
+                                                <action selector="annulerAjouterTodo:" destination="BYZ-38-t0r" id="tWI-Dq-gBK"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="0K8-9z-Bt7">
+                                            <connections>
+                                                <action selector="AjouterTodoAction:" destination="BYZ-38-t0r" id="oXk-tR-Vdd"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TQI-li-BoM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="122" id="6a0-bR-tch"/>
+                            <constraint firstItem="rEJ-Sy-iMF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7cZ-TE-Wp9"/>
+                            <constraint firstItem="TQI-li-BoM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eQy-QB-oCp"/>
+                            <constraint firstAttribute="trailing" secondItem="rEJ-Sy-iMF" secondAttribute="trailing" id="u7f-nx-QJL"/>
+                            <constraint firstItem="rEJ-Sy-iMF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="w1h-pe-J4x"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="todoTextField" destination="TQI-li-BoM" id="dG9-3g-tvS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1356" y="124.58770614692655"/>
+        </scene>
+        <!--Liste Todos-->
+        <scene sceneID="mAH-m7-y7u">
+            <objects>
+                <tableViewController id="DeN-nn-BFq" customClass="ToDosTableViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="75" sectionFooterHeight="28" id="7Bh-R0-qxC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TodoCell" id="7jw-OL-UDo">
+                                <rect key="frame" x="0.0" y="75" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7jw-OL-UDo" id="BQY-Lf-bBa">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="DeN-nn-BFq" id="jBc-Zt-jvG"/>
+                            <outlet property="delegate" destination="DeN-nn-BFq" id="UBl-Xd-ZgO"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Liste Todos" id="ha6-V9-dtk">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="mvT-Xf-FJv">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" identifier="ajouterTodo" id="RjY-ry-gxC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p41-U8-Hbc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="559.20000000000005" y="125.4872563718141"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kom-YS-6uC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xfF-xZ-3jS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mOp-kb-uku">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="DeN-nn-BFq" kind="relationship" relationship="rootViewController" id="Nof-Oo-B9b"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJB-tQ-vqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-380" y="125.4872563718141"/>
         </scene>
     </scenes>
 </document>

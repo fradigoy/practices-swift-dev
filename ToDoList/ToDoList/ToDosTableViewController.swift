@@ -8,7 +8,12 @@
 
 import UIKit
 
-class ToDosTableViewController: UITableViewController {
+
+
+class ToDosTableViewController: UITableViewController, TodosViewControllerDelegate {
+    
+    
+    var todos: [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +23,17 @@ class ToDosTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        
+        
+        todos = ["faire les courses", "allez chez le dentiste", "Payez les factures", "Réserver le restaurant"]
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,23 +45,29 @@ class ToDosTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return todos.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TodoCell", for: indexPath)
 
-        // Configure the cell...
+        cell.textLabel?.text = todos[indexPath.row]
 
         return cell
     }
-    */
+ 
+    // TableViewController Delegate
+    
+    
+    func TodoAjouter(sender: ViewController, todo: String) {
+        todos.append(todo)
+    }
 
     /*
     // Override to support conditional editing of the table view.
@@ -82,14 +104,22 @@ class ToDosTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        if(segue.identifier == "ajouterTodo")
+        {
+            
+            let viewVC = segue.destination as! ViewController
+            viewVC.delegate = self
+            
+        }
+        
+        
     }
-    */
+
 
 }
