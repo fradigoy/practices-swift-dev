@@ -12,7 +12,26 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // declaration infos / données
+        let nom = "frederic"
+        let age = 31
+        
+        // creation instance de UserDefault
+        let defaults = UserDefaults.standard
+        
+        
+        // definition des préférences
+        defaults.set(nom, forKey: "nom")
+        defaults.set(age, forKey: "age")
+        
+        
+        //retrouver les préférences
+        let monNom = defaults.object(forKey: "nom")
+        let monAge = defaults.object(forKey: "age")
+        
+        
+        print("mon nom est \(monNom!) et j'ai \(monAge!)")
     }
 
     override func didReceiveMemoryWarning() {
