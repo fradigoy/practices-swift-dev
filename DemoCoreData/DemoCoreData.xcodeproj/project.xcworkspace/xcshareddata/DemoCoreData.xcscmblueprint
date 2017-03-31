@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "91D530AC6070935E9AFA91ADA8188055EAB4504D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "91D530AC6070935E9AFA91ADA8188055EAB4504D" : 9223372036854775807,
+    "601744435F825CC7E4FC8DA10976A839068572F8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A1688359-180C-47AE-B33C-B4E9F303FD2F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "91D530AC6070935E9AFA91ADA8188055EAB4504D" : "iOS-DevSwift-Practice\/",
+    "601744435F825CC7E4FC8DA10976A839068572F8" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DemoCoreData",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DemoCoreData\/DemoCoreData.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blacksmash\/nodejs-test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "601744435F825CC7E4FC8DA10976A839068572F8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blacksmash\/iOS-DevSwift-Practice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "91D530AC6070935E9AFA91ADA8188055EAB4504D"
+    }
+  ]
+}
